@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <% include ../template/head %>
+</head>
+<body>
+    <% include ../template/header %>
+    <h3>Search Results</h3>
+    <ul>
+        <% books.map(book => { %>
+            <li>Title: <%= book.title %>  <%= book.subtitle %></li>
+            <li>Author: <%= book.author %></li>
+            <li>
+                <img src=<%= book.bookPic %></li>
+            <br>
+            <br>
+        <% }) %>
+    </ul>
+    <% include ../template/footer %>
+</body>
+</html>

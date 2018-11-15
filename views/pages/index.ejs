@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <% include ../template/head %>
+</head>
+<body>
+    <% include ../template/header %>
+
+    <form id='search-form' action="/search" method="POST">
+        <fieldset>
+            <input class="input" name='searchText' />
+        </fieldset>
+        <fieldset>
+            <label class="container" for="author">Author</label>
+            <input class="with-gap" type="radio" id="author" name="parameter" value="author" />
+            <span class="checkmark"></span>
+        </fieldset>
+        <fieldset>
+            <label class="container" for="title">Title</label>
+            <input class="with-gap" type="radio" name="parameter" value="title" />
+            <span class="checkmark"></span>
+        </fieldset>
+        <button class="button" type="submit">Submit</button>
+    </form>
+
+    <% include ../template/footer %>
+</body>
+</html>
