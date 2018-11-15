@@ -1,0 +1,26 @@
+body {
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: auto;
+    max-width: 250px;
+    background-image: url("https://image.freepik.com/free-vector/wrinkled-paper-texture_1100-12.jpg")
+}
+h3 {
+    color: slategray;
+}
+.button {
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=radio]{
+    transform: scale(2);
+}
+.container {
+    font-size: 15px;
+}
+.input[class=input] {
+    text-align: center;
+    font-size: 14px;
+}
