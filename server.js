@@ -10,6 +10,7 @@ const app = express()
 const PORT = process.env.PORT || 4000
 
 //** Set up DB with mongo DB **
+const mongoose
 
 
 // ***********
