@@ -9,6 +9,10 @@ const superagent = require(`superagent`)
 const app = express()
 const PORT = process.env.PORT || 4000
 
+//** Set up DB with mongo DB **
+
+
+// ***********
 app.use(express.urlencoded({ extended: true }))
 app.use(express.static('public'))
 
